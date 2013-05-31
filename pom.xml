@@ -6,7 +6,7 @@
 
     <groupId>com.englishtown</groupId>
     <artifactId>oss-parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <packaging>pom</packaging>
 
     <parent>
@@ -16,7 +16,7 @@
     </parent>
 
     <name>${project.artifactId}</name>
-    <url>https://github.com/englishtown/${project.artifactId}</url>
+    <url>https://github.com/englishtown</url>
 
     <organization>
         <name>Englishtown</name>
@@ -168,20 +168,24 @@
         <url>https://github.com/englishtown/${project.artifactId}/issues</url>
     </issueManagement>
 
-    <distributionManagement>
-        <site>
-            <id>sling.englishtown.com</id>
-            <url>
-                dav:https://sling.englishtown.com/content/docs/${project.groupId}/${project.artifactId}/${project.version}
-            </url>
-        </site>
-    </distributionManagement>
+    <!--See this issue http://jira.codehaus.org/browse/SCM-531-->
+    <!--Copy the below and uncomment in your pom-->
+    <!--<distributionManagement>-->
+        <!--<site>-->
+            <!--<id>sling.englishtown.com</id>-->
+            <!--<url>-->
+                <!--dav:https://sling.englishtown.com/content/docs/${project.groupId}/${project.artifactId}/${project.version}-->
+            <!--</url>-->
+        <!--</site>-->
+    <!--</distributionManagement>-->
 
-    <scm>
-        <connection>scm:git:https://github.com/englishtown/${project.artifactId}.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/englishtown/${project.artifactId}.git</developerConnection>
-        <tag>HEAD</tag>
-        <url>https://github.com/englishtown/${project.artifactId}</url>
-    </scm>
+    <!--See this issue http://jira.codehaus.org/browse/SCM-531-->
+    <!--Copy the below and uncomment in your pom-->
+    <!--<scm>-->
+        <!--<connection>scm:git:https://github.com/englishtown/${project.artifactId}.git</connection>-->
+        <!--<developerConnection>scm:git:ssh://git@github.com/englishtown/${project.artifactId}.git</developerConnection>-->
+        <!--<tag>HEAD</tag>-->
+        <!--<url>https://github.com/englishtown/${project.artifactId}</url>-->
+    <!--</scm>-->
 
 </project>
