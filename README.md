@@ -1,8 +1,8 @@
 # Englishtown oss-parent
-This should be the parent pom for Englishtown open source projects.
+This should be the parent pom for Englishtown open source maven projects.
 
 
-# Configuration
+## Configuration
 Add the following to your pom:
 
 ```xml
@@ -36,10 +36,10 @@ http://jira.codehaus.org/browse/SCM-531
 ```
 
 
-# Example commands
+## Example commands
 
-## Snapshot deployment
+### Snapshot deployment
 mvn clean package deploy
 
-## Release deployment
+### Release deployment
 mvn clean package gpg:sign deploy
