@@ -39,7 +39,7 @@ http://jira.codehaus.org/browse/SCM-531
 ## Example commands
 
 ### Snapshot deployment
-mvn clean package deploy
+mvn clean deploy
 
 ### Release deployment
-mvn clean package gpg:sign deploy
+mvn -P oss-release clean deploy
