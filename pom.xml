@@ -48,7 +48,7 @@
         <maven.surefire.report.plugin.version>2.14</maven.surefire.report.plugin.version>
         <maven.javadoc.plugin.version>2.9</maven.javadoc.plugin.version>
         <maven.dependency.plugin.version>2.7</maven.dependency.plugin.version>
-        <maven.jgitflow.plugin.version>1.0-alpha8</maven.jgitflow.plugin.version>
+        <maven.jgitflow.plugin.version>1.0-alpha22</maven.jgitflow.plugin.version>
         <maven.gpg.plugin.version>1.4</maven.gpg.plugin.version>
     </properties>
 
