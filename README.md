@@ -9,7 +9,7 @@ Add the following to your pom:
     <parent>
         <groupId>com.englishtown</groupId>
         <artifactId>oss-parent</artifactId>
-        <version>1.5.0</version>
+        <version>2.0.0-SNAPSHOT</version>
     </parent>
 ```
 
